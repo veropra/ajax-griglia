@@ -7,8 +7,8 @@ $(document).ready(function(){
       $.ajax({
         "url": "https://www.boolean.careers/api/random/int",
         "method": "GET",
-        "success": function(vero){
-          output(vero);
+        "success": function(data){
+          output(data);
         },
         "error": function(){
         }
@@ -27,4 +27,4 @@ $(document).ready(function(){
       }
     }
   });
-})
+});
