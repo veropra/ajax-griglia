@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #2d3436;
+}
+.container::after {
+  content: '';
+  clear: both;
+  display: inline-block;
+}
+.square{
+  width: 604px;
+  height: 604px;
+  margin: 50px auto;
+  border: 2px solid black;
+}
+.smallsquare{
+  background-color: white;
+  border: 1px solid black;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+.yellow{
+  background-color: #fff200;
+}
+
+.green{
+  background-color: #32ff7e;
+}
+
+.write{
+  text-align: center;
+}
